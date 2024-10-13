@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/*
+* Name: John Chirayil
+* File: PlayerPlatformerController.cs
+* CGE401 - Assignment 5A 
+* Description: Controls player movement.
+*/
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -49,6 +57,7 @@ public class PlayerPlatformerController : PhysicsObject {
 
         animator.SetBool ("grounded", grounded);
         animator.SetFloat ("velocityX", Mathf.Abs (velocity.x) / maxSpeed);
+        animator.SetFloat("velocityY", velocity.y);
 
         targetVelocity = move * maxSpeed;
     }
