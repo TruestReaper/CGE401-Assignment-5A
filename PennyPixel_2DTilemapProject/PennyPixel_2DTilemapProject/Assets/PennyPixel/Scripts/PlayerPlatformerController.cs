@@ -14,6 +14,7 @@ public class PlayerPlatformerController : PhysicsObject {
 
     public float maxSpeed = 7;
     public float jumpTakeOffSpeed = 7;
+    public bool gameOver = false;
 
     private SpriteRenderer spriteRenderer;
     private Animator animator;

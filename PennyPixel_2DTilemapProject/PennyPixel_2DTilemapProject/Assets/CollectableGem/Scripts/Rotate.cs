@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+* Name: John Chirayil
+* File: Rotate.cs
+* CGE401 - Assignment 5A 
+* Description: Allows the gem to rotate in position.
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

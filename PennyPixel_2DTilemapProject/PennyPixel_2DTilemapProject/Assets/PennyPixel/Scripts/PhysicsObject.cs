@@ -1,4 +1,14 @@
-﻿using System.Collections;
+﻿/*
+* Name: John Chirayil
+* File: PhysicsObjects.cs
+* CGE401 - Assignment 5A 
+* Description: defines a base class that handles 2D 
+* physics-based movement and collision detection for 
+* objects while applying gravity and ground collision 
+* responses.
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
