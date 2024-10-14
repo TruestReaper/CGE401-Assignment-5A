@@ -53,7 +53,7 @@ public class ScoreManager : MonoBehaviour
         }
 
         // Win Condition: 10 points
-        if (score >= 2)
+        if (score >= 10)
         {
             gameOver = true;
             won = true;
